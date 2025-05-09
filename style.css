@@ -239,6 +239,9 @@ section {
 }
 .skills {
     background: var(--bg-color);
+	justify-content: center;
+	align-items: center;
+    display: grid;
 }
 .skills-container {
     display: grid;
@@ -311,6 +314,9 @@ section {
 .services {
     background: var(--second-bg-color);
     color: black;
+    justify-content: center;
+	align-items: center;
+    display: grid;
 }
 .services h2 {
     color: var(--text-color);
@@ -365,6 +371,9 @@ section {
 }
 .projects {
     background: var(--bg-color);
+    justify-content: center;
+	align-items: center;
+    display: grid;
 }
 .projects-box {
     display: grid;
@@ -530,7 +539,7 @@ section {
 .footer-thanks .social-icons {
     text-align: center;
 }
-@media(max-width: 1258px) {
+@media only screen and (max-width: 1258px) {
     #menu-icon {
         display: block;
     }
@@ -584,6 +593,7 @@ section {
     .contact form {
         flex-direction: column;
     }
+ 
 }
 @keyframes slideTop {
     0% {

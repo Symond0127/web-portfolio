@@ -347,7 +347,7 @@ section {
     padding: 5rem;
 }
 .service-info h4 {
-    font-size: 4rem;
+    font-size: 4.2rem;
     margin: 2rem 0;
     font-weight: 800;
 }
@@ -587,6 +587,12 @@ section {
         width: 100%;
         justify-content: center;
         align-items: center;
+    }
+    .service-info h4 {
+        font-size: 3.8rem;
+    }
+    .service-box {
+        height: 440px;
     }
     .contact form {
         flex-direction: column;

@@ -239,9 +239,6 @@ section {
 }
 .skills {
     background: var(--bg-color);
-	justify-content: center;
-	align-items: center;
-    display: grid;
 }
 .skills-container {
     display: grid;
@@ -314,16 +311,13 @@ section {
 .services {
     background: var(--second-bg-color);
     color: black;
-    justify-content: center;
-	align-items: center;
-    display: grid;
 }
 .services h2 {
     color: var(--text-color);
 }
 .services-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
     align-items: center;
     gap: 2.5rem;
 }
@@ -371,9 +365,6 @@ section {
 }
 .projects {
     background: var(--bg-color);
-    justify-content: center;
-	align-items: center;
-    display: grid;
 }
 .projects-box {
     display: grid;
@@ -592,6 +583,15 @@ section {
     }
     .contact form {
         flex-direction: column;
+    }
+    .skills, .services, .projects {
+        justify-content: center;
+	    align-items: center;
+        display: grid;  
+    }
+    .project-card {
+        height: 500px;
+        width: 370px;
     }
  
 }

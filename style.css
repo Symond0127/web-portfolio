@@ -751,7 +751,10 @@ i.button:active {
     i#next {
         right: -50px;
     }
- 
+	.web-apps h2 {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
 }
 @keyframes slideTop {
     0% {
